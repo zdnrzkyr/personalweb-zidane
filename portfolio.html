@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+
+</head>
+<body class="font-inter bg-primary">
+    <header class="text-white w-full text-base fixed">
+        <nav class="hover:bg-color-hover text-center flex py-4 items-center justify-between transition ease-in-out duration-500">
+            <!-- navbar kiri -->
+            <div class="ml-28">
+                <a href="" class="text-red-text text-xl italic">Z</a>
+                <a href="" class="italic -ml-2">D</a>
+                <a href="" class="italic"><span class="text-red-text italic">Z</span>idane</a>
+                <a href="" class="italic -ml-1"><span class="text-red-text italic">D</span>ev.</a>
+            </div>
+
+            <!-- navbar kanan -->
+            <div class="hidden md:flex space-x-4 mr-36">
+                <a href="./index.html" class="hover:text-red-text transition ease-in-out duration-500">Home</a>
+                <a href="./services.html" class="hover:text-red-text transition ease-in-out duration-500">Services</a>
+                <a href="#" class="hover:text-red-text transition ease-in-out duration-500">Portfolio</a>
+                <a href="./about.html" class="bg-red-text hover:bg-yellow-500 hover:text-black rounded-md w-24 py-1 -mt-1 transition ease-in-out duration-500">About Me</a>
+            </div>
+
+            <div class="mr-16 md:hidden">
+                <button class="text-white" id="mobile-menu-button">
+                    <i data-feather="menu"></i>
+                </button>
+            </div>
+        </nav>
+        <div class="md:hidden hidden" id="mobile-menu">
+            <div class="mr-24 bg-color-hover mx-auto w-full text-center">
+                <a href="#" class="hover:text-red-text block py-1 hover:bg-primary mb-2 rounded-md">Home</a>
+                <a href="#" class="hover:text-red-text block py-1 hover:bg-primary mb-2 rounded-md">Services</a>
+                <a href="#" class="hover:text-red-text block py-1 hover:bg-primary mb-2 rounded-md">Portfolio</a>
+                <a href="#" class="hover:bg-red-text rounded-md py-1 block text">About Me</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="max-w-full mx-auto block py-36 px-0">
+        <div class="ml-28">
+           <h1 class="text-5xl text-red-text pb-2">My Best <span class="text-5xl text-white">Portfolio</span></h1> 
+           <p class="text-white  text-sm">My web portfolio offers top-notch website design and development services tailored</p>
+           <p class=" text-white  text-sm pb-3">to enhance your online presence effectively.</p>
+
+            <div class="w-[1000px] h-[476px] bg-color-hover rounded-xl mt-7">
+                <!-- <div class="mt-5 ml-10"> -->
+                    <!-- <div class="grid grid-cols-5 grid-rows-5"> -->
+                    <div class="flex flex-wrap space-x-5">
+                        <div class="bg-primary text-white w-[292px] h-[390px] rounded-md mt-10 ml-10">
+                            <h1 class="text-2xl text-yellow-500 text-center py-5">Web Design</h1>
+                            <img src="https://i.ibb.co/0nX2TQP/web-design-1.png" alt="" class="w-[246] h-[167] px-5">
+                            <h3 class="text-sm text-white px-5 text-center py-5">
+                                Elevate your online presence with captivating web designs that leave a lasting impression. Let's transform your digital vision into reality today!
+                            </h3>
+                        </div>
+
+                        <div class="bg-primary text-white w-[292px] h-[390px] rounded-md mt-10 ml-10">
+                            <h1 class="text-2xl text-yellow-500 text-center py-5">Web Development</h1>
+                            <img src="https://i.ibb.co/t4VWVdD/web-development-1.png" alt="" class="w-[246] h-[167] px-5">
+                            <h3 class="text-sm text-white px-5 text-center py-5">
+                                Crafting seamless digital experiences with cutting-edge web development techniques. Let's build your vision into reality.
+                            </h3>
+                        </div>
+
+                        <div class="bg-primary text-white w-[292px] h-[390px rounded-md mt-10 ml-10">
+                            <h1 class="text-2xl text-yellow-500 text-center py-5">Digital Marketing</h1>
+                            <img src="https://i.ibb.co/1zkx6kg/digital-marketing-1.png" alt="" class="w-[246] h-[167] px-5">
+                            <h3 class="text-sm text-white px-5 text-center py-5">
+                                Engage and convert with our tailored digital marketing strategies. Elevate your online presence today.
+                            </h3>
+                        </div>
+                    </div>    
+                    <!-- </div> -->
+                <!-- </div> -->
+            </div>
+        </div>
+    </section>
+    <footer class=" fixed bottom-0 left-0 right-0">
+        <div class="text-center text-white -mt-8 text-sm">
+            Copyright © Zidane Developer 2024
+        </div>
+    </footer>
+    <script>
+        feather.replace();
+      </script>
+    <script src="./src/mobile.js"></script>
+</body>
+</html>
+
+<!-- <div class="grid grid-cols-5 grid-rows-5 gap-4 mt-5 ml-10">
+    <div class="bg-color-hover text-white w-[292px] h-[390px] rounded-md">
+        <h1 class="text-2xl text-yellow-500 text-center py-5">Web Design</h1>
+        <img src="https://i.ibb.co/0nX2TQP/web-design-1.png" alt="" class="w-[246] h-[167] px-5">
+        <h3 class="text-sm text-white px-5 text-center py-5">
+            Elevate your online presence with captivating web designs that leave a lasting impression. Let's transform your digital vision into reality today!
+        </h3>
+    </div>
+
+    <div class="bg-color-hover text-white w-[292px] h-[390px] ml-20 rounded-md">
+        <h1 class="text-2xl text-yellow-500 text-center py-5">Web Development</h1>
+        <img src="https://i.ibb.co/t4VWVdD/web-development-1.png" alt="" class="w-[246] h-[167] px-5">
+        <h3 class="text-sm text-white px-5 text-center py-5">
+            Crafting seamless digital experiences with cutting-edge web development techniques. Let's build your vision into reality.
+        </h3>
+    </div>
+
+    <div class="bg-color-hover text-white w-[292px] h-[390px ml-40 rounded-md">
+        <h1 class="text-2xl text-yellow-500 text-center py-5">Digital Marketing</h1>
+        <img src="https://i.ibb.co/1zkx6kg/digital-marketing-1.png" alt="" class="w-[246] h-[167] px-5">
+        <h3 class="text-sm text-white px-5 text-center py-5">
+            Engage and convert with our tailored digital marketing strategies. Elevate your online presence today.
+        </h3>
+    </div>
+</div> -->

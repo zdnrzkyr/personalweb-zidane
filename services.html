@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+
+</head>
+<body class="font-inter bg-primary">
+    <header class="text-white w-full text-base fixed">
+        <nav class="hover:bg-color-hover text-center flex py-4 items-center justify-between transition ease-in-out duration-500">
+            <!-- navbar kiri -->
+            <div class="ml-28">
+                <a href="" class="text-red-text text-xl italic">Z</a>
+                <a href="" class="italic -ml-2">D</a>
+                <a href="" class="italic"><span class="text-red-text italic">Z</span>idane</a>
+                <a href="" class="italic -ml-1"><span class="text-red-text italic">D</span>ev.</a>
+            </div>
+
+            <!-- navbar kanan -->
+            <div class="hidden md:flex space-x-4 mr-36">
+                <a href="./index.html" class="hover:text-red-text transition ease-in-out duration-500">Home</a>
+                <a href="#" class="hover:text-red-text transition ease-in-out duration-500">Services</a>
+                <a href="./portfolio.html" class="hover:text-red-text transition ease-in-out duration-500">Portfolio</a>
+                <a href="./about.html" class="bg-red-text hover:bg-yellow-500 hover:text-black rounded-md w-24 py-1 -mt-1 transition ease-in-out duration-500">About Me</a>
+            </div>
+
+            <div class="mr-16 md:hidden">
+                <button class="text-white" id="mobile-menu-button">
+                    <i data-feather="menu"></i>
+                </button>
+            </div>
+        </nav>
+        <div class="md:hidden hidden" id="mobile-menu">
+            <div class="mr-24 bg-color-hover mx-auto w-full text-center">
+                <a href="#" class="hover:text-red-text block py-1 hover:bg-primary mb-2 rounded-md">Home</a>
+                <a href="#" class="hover:text-red-text block py-1 hover:bg-primary mb-2 rounded-md">Services</a>
+                <a href="#" class="hover:text-red-text block py-1 hover:bg-primary mb-2 rounded-md">Portfolio</a>
+                <a href="#" class="hover:bg-red-text rounded-md py-1 block text">About Me</a>
+            </div>
+        </div>
+    </header>
+    <section class="max-w-full mx-auto block py-36 px-0">
+        <div class="ml-28">
+           <h1 class="text-5xl text-white pb-2">My Best <span class="text-5xl text-red-text">Services</span></h1> 
+        </div>
+        <div class="ml-28 text-white  text-sm block">
+            <p>My web portfolio offers top-notch website design and development services tailored</p>
+            <p class="pb-3">to enhance your online presence effectively.</p>        
+
+        <div class="w-[1020px] h-[476px] bg-color-hover rounded-xl mt-7">
+            <div class="grid grid-cols-4 grid-rows-1 mx-11 pt-11 gap-4">
+                <div class="bg-primary text-center w-[300px] h-[190px] rounded-md border-2 border-red-text ">
+                    <h1 class="text-2xl pt-5">Graphic Design</h1>
+                    <h3 class="text-sm text-center py-4 px-5">
+                        My web portfolio offers top-notch
+                        website design and development
+                        services tailored to enhance your
+                        online presence effectively.
+                    </h3>
+                </div>
+                <div class="bg-red-text text-center w-[300px] h-[190px] rounded-md ml-20">
+                    <h1 class="text-2xl pt-5">Web Design</h1>
+                    <h3 class="text-base text-center py-4 px-5">
+                        Blending creativity and functionality to shape memorable online experiences.
+                    </h3>
+                </div>
+                <div class="bg-primary text-center w-[300px] h-[190px] rounded-md ml-40 border-2 border-red-text">
+                    <h1 class="text-2xl pt-5">Digital Marketing</h1>
+                    <h3 class="text-sm text-center py-4 px-5">
+                        Strategically crafting campaigns to reach and resonate with target audiences effectively.
+                    </h3>
+                </div>   
+                <div class="row-start-2 bg-red-text text-center w-[300px] h-[190px] rounded-md">
+                    <h1 class="text-2xl pt-5">Web Development</h1>
+                    <h3 class="text-base text-center py-4 px-5">
+                        Transforming ideas into interactive and seamless digital experiences.
+                    </h3>
+                </div>
+                <div class="row-start-2 bg-primary text-center w-[300px] h-[190px] rounded-md ml-20 border-2 border-red-text">
+                    <h1 class="text-2xl pt-5">Marketing Strategy</h1>
+                    <h3 class="text-sm text-center py-4 px-5">
+                        Strategically aligning messaging, channels, and tactics to maximize reach and impact.
+                    </h3>
+                </div>
+                <div class="row-start-2 bg-red-text text-center w-[300px] h-[190px] rounded-md ml-40">
+                    <h1 class="text-2xl pt-5">Brand Design</h1>
+                    <h3 class="text-base text-center py-4 px-5">
+                        Aligning vision, values, and messaging to create lasting connections with audiences.
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class=" fixed bottom-0 left-0 right-0 text-center text-white -mt-8 text-sm">
+        <div class="text-center text-white -mt-8 text-sm">
+            Copyright © Zidane Developer 2024
+        </div>
+    </footer>
+    <script>
+        feather.replace();
+      </script>
+    <script src="./src/mobile.js"></script>
+</body>
+</html>
+
+<!-- <div class="grid grid-cols-5 grid-rows-5 gap-4 mt-5 ml-10">
+    <div class="bg-color-hover text-center w-[300px] h-[190px] rounded-md border-2 border-red-text ">
+        <h1 class="text-2xl pt-5">Graphic Design</h1>
+        <h3 class="text-sm text-center py-4 px-5">
+            My web portfolio offers top-notch
+            website design and development
+            services tailored to enhance your
+            online presence effectively.
+        </h3>
+    </div>
+    <div class="bg-red-text text-center w-[300px] h-[190px] rounded-md ml-20">
+        <h1 class="text-2xl pt-5">Web Design</h1>
+        <h3 class="text-base text-center py-4 px-5">
+            Blending creativity and functionality to shape memorable online experiences.
+        </h3>
+    </div>
+    <div class="bg-color-hover text-center w-[300px] h-[190px] rounded-md ml-40 border-2 border-red-text">
+        <h1 class="text-2xl pt-5">Digital Marketing</h1>
+        <h3 class="text-sm text-center py-4 px-5">
+            Strategically crafting campaigns to reach and resonate with target audiences effectively.
+        </h3>
+    </div>   
+    <div class="row-start-2 bg-red-text text-center w-[300px] h-[190px] rounded-md">
+        <h1 class="text-2xl pt-5">Web Development</h1>
+        <h3 class="text-base text-center py-4 px-5">
+            Transforming ideas into interactive and seamless digital experiences.
+        </h3>
+    </div>
+    <div class="row-start-2 bg-color-hover text-center w-[300px] h-[190px] rounded-md ml-20 border-2 border-red-text">
+        <h1 class="text-2xl pt-5">Marketing Strategy</h1>
+        <h3 class="text-sm text-center py-4 px-5">
+            Strategically aligning messaging, channels, and tactics to maximize reach and impact.
+        </h3>
+    </div>
+    <div class="row-start-2 bg-red-text text-center w-[300px] h-[190px] rounded-md ml-40">
+        <h1 class="text-2xl pt-5">Brand Design</h1>
+        <h3 class="text-base text-center py-4 px-5">
+            Aligning vision, values, and messaging to create lasting connections with audiences.
+        </h3>
+    </div>
+</div> -->
+
+<!-- <div class="flex flex-wrap space-x-5">
+    <div class="bg-primary text-center w-[300px] h-[190px] rounded-md border-2 border-red-text mt-10 ml-10">
+        <h1 class="text-2xl pt-5">Graphic Design</h1>
+        <h3 class="text-sm text-center py-4 px-5">My web portfolio offers top-notch website design and development services tailored to enhance your online presence effectively.
+        </h3>
+    </div>
+
+    <div class="bg-red-text text-center w-[300px] h-[190px] rounded-md mt-10">
+        <h1 class="text-2xl pt-5">Web Design</h1>
+        <h3 class="text-base text-center py-4 px-5">
+            Blending creativity and functionality to shape memorable online experiences.
+        </h3>
+    </div>
+
+    <div class="bg-primary text-center w-[300px] h-[190px] rounded-md border-2 border-red-text mt-10">
+        <h1 class="text-2xl pt-5">Digital Marketing</h1>
+        <h3 class="text-sm text-center py-4 px-5">
+            Strategically crafting campaigns to reach and resonate with target audiences effectively.
+        </h3>
+    </div>    
+</div> -->
